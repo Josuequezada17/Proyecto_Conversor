@@ -5,7 +5,16 @@ import java.awt.event.*;
 
 import javax.swing.*;
 
-public class Conversor extends DiseñoGlobal implements ActionListener {
+/**
+ * Creara una representacion grafica de un menu en el cual se puede escoger
+ * Divisas, termometro o salir
+ * 
+ * @serial version 1.0
+ * @author Josue Quezada
+ * 
+ * */
+
+public class Conversor extends DisenoGlobal implements ActionListener {
 
 
 	/**
@@ -24,7 +33,11 @@ public class Conversor extends DiseñoGlobal implements ActionListener {
 	private ButtonGroup group = new ButtonGroup();
 
 	/**
-	 * Constructor con diseño heredado
+	 * Constructor con diseño heredado de DiseñoGlobal
+	 @param sizeX - Medida en anchura de la pagina
+	 * @param sizeY - Medida en altura de la pagina
+	 * @param color - Color del fondo del frame
+	 * @param titulo - Titulo del frame
 	 * */
 	public Conversor(int sizeX, int sizeY, Color color, String titulo) {
 
@@ -64,6 +77,10 @@ public class Conversor extends DiseñoGlobal implements ActionListener {
 		this.setVisible(true);
 	}
 
+	/**
+	 * Se encarga del manejo de los botones, para saber
+	 * en cual de ellos se hace click
+	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		this.dispose();
