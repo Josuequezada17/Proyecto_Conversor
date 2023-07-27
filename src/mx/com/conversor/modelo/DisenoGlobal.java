@@ -29,6 +29,7 @@ public abstract class  DisenoGlobal extends JFrame implements ActionListener{
 		this.setSize(sizeX, sizeY); // 520 ,420
 		this.setTitle(titulo);
 		this.setIconImage(this.icon.getImage());
+		this.setLocationRelativeTo(null); 
 		this.getContentPane().setBackground(color);
 	}
 	
