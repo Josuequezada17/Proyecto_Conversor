@@ -129,7 +129,7 @@ informandonos que el programa finalizo y si cancelamos retornaremos hacia el men
 
 [<img src="https://avatars.githubusercontent.com/u/83832151?v=4" width=115><br><sub>Angel Josue Quezada Lujan</sub>](https://github.com/Josuequezada17) 
 
-##Insignia
+## Insignia
 
 ![insignia](https://github.com/Josuequezada17/Proyecto_Conversor/assets/83832151/28ca0a9b-4189-40bb-b3fb-7a29db082e50)
 
